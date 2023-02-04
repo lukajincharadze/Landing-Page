@@ -1,34 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300&display=swap');
 
 .nav-bar__title {
     display: flex;
-    justify-content: flex-start;
     font-size: 32px;
-    align-items: flex-start;
 
 }
 
 .nav-bar__div {
     display: flex;
-    justify-content: flex-end;
 }
 
 .nav-bar__ul {
-    justify-content: space-between;
     display: flex;
     font-size: 20px;
-    align-items: flex-start;
+    color: #3D37f1;
+    font-weight: 400;
+}
+
+.nav-li:nth-child(-n +5) {
+    margin-left: 40px;
 }
 
 .navigation {
     width: 1745px;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 277px;
 }
 
 span {
     color: #3D37f1;
+    font-weight: 700;
+    margin-right: 5px;
 }
 
 .title-p { 
