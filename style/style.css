@@ -18,7 +18,7 @@ body {
     display: flex;
     font-size: 20px;
     color: #3D37f1;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .nav-li:nth-child(-n +5) {
@@ -101,6 +101,7 @@ section {font-family: 'Lato', sans-serif;}
 .section-div-2 {
     width: 1170px;
     margin: 0 auto;
+    margin-top: 350px;
 }
 
 .service-text__div {
@@ -112,10 +113,27 @@ section {font-family: 'Lato', sans-serif;}
     justify-content: center;
 }
 
-.service-p {
-    text-align: center;
+.blue-text__h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3D37f1;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 10px;
 }
 
+.service-title__service {
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    opacity: 65%;
+    margin-bottom: 25px;
+}
 
+.service-p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 50%;
+}
 
 /* END SECTION 2 */
