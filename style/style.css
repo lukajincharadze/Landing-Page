@@ -152,6 +152,7 @@ section {font-family: 'Lato', sans-serif;}
     align-items: center;
     justify-content: center;
     margin-bottom: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .service-box__img {
@@ -198,7 +199,7 @@ section {font-family: 'Lato', sans-serif;}
 }
 
 .second {
-    background-image: linear-gradient(#9e9bf3, #564fd6);
+    background-image: linear-gradient(#41eae3, #2293b7);
 }
 
 .third {
@@ -206,11 +207,11 @@ section {font-family: 'Lato', sans-serif;}
 }
 
 .fourth {
-    background-image: linear-gradient(#9e9bf3, #564fd6);
+    background-image: linear-gradient(#69529f, #463864);
 }
 
 .fifth {
-    background-image: linear-gradient(#9e9bf3, #564fd6);
+    background-image: linear-gradient(#4386d2, #0962c6);
 }
 
 .sixth {
@@ -218,7 +219,7 @@ section {font-family: 'Lato', sans-serif;}
 }
 
 .seventh {
-    background-image: linear-gradient(#9e9bf3, #564fd6);
+    background-image: linear-gradient(#ff8088, #984141);
 }
 
 
@@ -232,6 +233,9 @@ section {font-family: 'Lato', sans-serif;}
     font-weight: 700;
     color: #fff;
 }
+
+.service-box:nth-child(4) {margin-bottom: 100px;}
+
 
 
 /* END SECTION 2 */
