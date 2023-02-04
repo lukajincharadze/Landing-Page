@@ -146,13 +146,14 @@ section {font-family: 'Lato', sans-serif;}
 .service-box {
     width: 370px;
     height: 451px;
-    background-color: #fbba77;
+    background-image: linear-gradient(#fbba77, #dfa871);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 60px;
 }
+
 .service-box__img {
     margin-top: 50px;
     width: 100px;
@@ -193,7 +194,43 @@ section {font-family: 'Lato', sans-serif;}
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
+}
 
+.second {
+    background-image: linear-gradient(#9e9bf3, #564fd6);
+}
+
+.third {
+    background-image: linear-gradient(#9e9bf3, #564fd6);
+}
+
+.fourth {
+    background-image: linear-gradient(#9e9bf3, #564fd6);
+}
+
+.fifth {
+    background-image: linear-gradient(#9e9bf3, #564fd6);
+}
+
+.sixth {
+    background-image: linear-gradient(#9e9bf3, #564fd6);
+}
+
+.seventh {
+    background-image: linear-gradient(#9e9bf3, #564fd6);
+}
+
+
+.second2 {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.second2 p {
+    opacity: 100%;
+    font-weight: 700;
+    color: #fff;
 }
 
 
