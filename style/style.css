@@ -185,10 +185,18 @@ section {font-family: 'Lato', sans-serif;}
     height: 45px;
     background-color: #fff;
     border-radius: 50px;
+    z-index: 1000;
 }
 
 .service-button__div p {
     opacity: 70%;
+}
+
+.service-button__div:hover {
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    transition: all 0.3s linear;
 }
 
 .service-box__6 {
