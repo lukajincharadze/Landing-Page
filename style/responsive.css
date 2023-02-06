@@ -44,9 +44,9 @@
         font-size: 18px;
         margin-bottom: 80px;
     }
-    .section-div {
+    /* .section-div {
         justify-content: space-evenly;
-    }
+    } */
     .section-button {
         width: 170px;
         height: 48px;
@@ -104,10 +104,15 @@
     .navigation {
         margin-bottom: 188px;
     }
-    .section-div {
+    /* .section-div {
         margin-left: 150px;
         margin-right: 150px;
+    } */
+
+    .box-1 {
+        width: 370px;
     }
+
     .section-title {
         font-size: 35px;
     }
