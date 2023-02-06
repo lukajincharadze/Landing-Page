@@ -176,15 +176,39 @@
 
 @media (max-width:830px) {
     .nav-bar__ul li:not(:last-child) {
-         display: none; 
+         margin-left: 30px; 
+    }
+}
+
+@media (max-width:810px) {
+    .nav-bar__ul {
+         margin-right: 40px; 
+    }
+}
+
+@media (max-width:770px) {
+    .nav-bar__ul {
+         margin-right: 80px; 
+    }
+}
+
+@media (max-width:730px) {
+    .nav-bar__ul {
+         margin-right: 100px; 
+    }
+
+    .nav-bar__ul li:not(:last-child) {
+        margin-left: 20px; 
+   }
+}
+
+@media (max-width:710px) {
+    .nav-bar__ul li:not(:last-child) {
+        display: none;
     }
     .fa-bars {
         display: block;
         font-size: 30px;
         color: #000;
     }
-   
 }
-
-
-
