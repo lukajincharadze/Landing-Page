@@ -1,0 +1,22 @@
+@media (max-width: 1800px) {
+    body {
+        width: 1520px;
+    }
+}
+
+@media (max-width: 1600px) {
+    body {
+        width: 1400px;
+    }
+}
+
+@media (max-width: 1470px) {
+    .box-2 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-2__img {
+        width: 500px;
+    }
+}

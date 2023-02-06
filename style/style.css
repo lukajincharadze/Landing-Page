@@ -51,7 +51,7 @@ section {font-family: 'Lato', sans-serif;}
 
 .section-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .box-1 {
