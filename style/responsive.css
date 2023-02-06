@@ -1,3 +1,15 @@
+@media (max-width: 1980px) {
+    .nav-bar__div {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1873px) {
+    .nav-bar__div {
+        padding-right: 50px;
+    }
+}
+
 @media (max-width: 1800px) {
     body {
         width: 1520px;
@@ -32,6 +44,9 @@
         font-size: 18px;
         margin-bottom: 80px;
     }
+    .section-div {
+        justify-content: space-evenly;
+    }
     .section-button {
         width: 170px;
         height: 48px;
@@ -44,4 +59,119 @@
         font-size: 18px;
         margin-left: 13px;
     }
+    .blue-text__h3 {
+        font-size: 18px;
+    }
+    .service-title__service {
+        font-size: 30px;
+    }
+    .service-p {
+        font-size: 15px;
+    }
+    .service-box {
+        width: 350px;
+        height: 430px;
+    }
+    .service-box {
+        margin-bottom: 50px;
+    }
+    .service-box__img {
+        width: 80px;
+    }
+    .service-box__h4 {
+        font-size: 20px;
+    }
+    .service-box-p {
+        font-size: 15px;
+        width: 304px;
+    }
+    .service-button__div {
+        width: 114px;
+        height: 39px;
+        border-radius: 20px;
+    }
+    .navigation {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    body {
+        width: 1200px;
+    }
 }
+
+@media (max-width:1220px) {
+    .navigation {
+        margin-bottom: 188px;
+    }
+    .section-div {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .section-title {
+        font-size: 35px;
+    }
+    .section-p{
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+    .section-button {
+        width: 150px;
+        height: 38px;
+    }
+    .button-img {
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-button-p{
+        font-size: 15px;
+    }
+    .nav-bar__title {
+        font-size: 23px;
+    }
+    .nav-bar__ul {
+        font-size: 14px;
+    }
+    
+    .box-2__img {
+        width: 400px;
+    }
+    .section-div-2 {
+        margin-top: 250px;
+    }
+}
+
+@media (max-width:1130px) {
+    .navigation {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:1100px) {
+    .navigation {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width:1050px) {
+    .navigation {
+        margin-right: 200px;
+    }
+}
+
+@media (max-width:1000px) {
+    .navigation {
+        margin-right: 220px;
+    }
+}
+
+@media (max-width:980px) {
+    .nav-bar__div {
+        justify-content: space-around;
+    }
+}
+
+
