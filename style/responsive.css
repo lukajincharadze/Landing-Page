@@ -1,0 +1,12 @@
+@media(max-width: 1000px) {
+    .nav-li {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 25px;
+    }
+    .nav-bar__title {
+        font-size: 25px;
+    }
+}
