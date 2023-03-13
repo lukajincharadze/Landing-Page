@@ -46,7 +46,8 @@
         text-align: center;
     }
     .section-div {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .section-button {
         margin: 0 auto;
@@ -56,7 +57,9 @@
 
 @media(max-width: 756px) {
     .service-box__6 {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .service-title__service {
         text-align: center;
