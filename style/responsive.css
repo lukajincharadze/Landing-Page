@@ -65,7 +65,11 @@
         align-items: center;
     }
     .navbar-ul {
+        margin-top: 50px;
         align-items: center;
+    }
+    .nav-li:nth-child(-n +5) {
+        margin-bottom: 40px;
     }
 }
 @media(max-width: 756px) {
