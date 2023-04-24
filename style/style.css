@@ -6,20 +6,20 @@ body {
     margin: 0 auto;
 }
 /* NAVIGATION */
-.nav-bar__title {
+.navbar-title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     font-size: 32px;
 }
 
-.nav-bar__div {
+.navbar-ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
-.nav-bar__ul {
+.navbar-ul ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -32,7 +32,7 @@ body {
     margin-left: 50px;
 }
 
-.navigation {
+.navbar {
     font-family: 'Lato', sans-serif;
     margin-top: 30px;
     display: -webkit-box;
@@ -59,8 +59,14 @@ span {
     font-weight: 300;
 }
 
-.fa-bars {
-    display: none;
+.toggle-button {
+    cursor: pointer;
+    position: absolute;
+    top: 34px;
+    right: 25px;
+    font-size: 25px;
+    color:black;
+    /* display: none; */
 }
 
 /* END NAVIGATION */
