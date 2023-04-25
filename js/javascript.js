@@ -22,6 +22,5 @@ function checkScreenWidth() {
     }
   }
   
-  // Call checkScreenWidth on load and resize
   window.addEventListener("load", checkScreenWidth);
   window.addEventListener("resize", checkScreenWidth);
