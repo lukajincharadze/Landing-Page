@@ -28,7 +28,7 @@ body {
     font-weight: 700;
 }
 
-.nav-li:nth-child(-n +5) {
+.nav-li {
     margin-left: 50px;
 }
 
@@ -66,7 +66,7 @@ span {
     right: 25px;
     font-size: 25px;
     color:black;
-    /* display: none; */
+    display: none;
 }
 
 /* END NAVIGATION */

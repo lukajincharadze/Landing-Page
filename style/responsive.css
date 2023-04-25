@@ -39,7 +39,7 @@
         font-size: 25px;
     }
     .navbar-ul {
-        /* display: none; */
+        display: none;
         flex-direction: column;
         align-items: center;
     }
@@ -58,7 +58,6 @@
         margin-bottom: 100px;
         flex-direction: column;
         display: block;
-        /* align-items: baseline; */
     }
     .navbar-ul ul {
         flex-direction: column;
@@ -68,9 +67,13 @@
         margin-top: 50px;
         align-items: center;
     }
-    .nav-li:nth-child(-n +5) {
+    .nav-li {
         margin-bottom: 40px;
     }
+    .navbar-ul.active {
+        display: block;
+    }
+    
 }
 @media(max-width: 756px) {
     .service-box__6 {
